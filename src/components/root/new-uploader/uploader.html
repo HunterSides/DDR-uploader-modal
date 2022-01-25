@@ -1,0 +1,101 @@
+<div class="div">
+  <div class="div-2">
+    <div class="div-3">
+      <div class="builder-columns columns">
+        <div class="builder-column column">
+          <div class="drag-drop-file-to-upload-or">
+            Drag & drop file to upload or click to browse files on your computer
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box">Upload</div>
+  </div>
+</div>
+<style>
+  .div {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 129px;
+    padding-bottom: 129px;
+    padding-right: 45px;
+    padding-left: 45px;
+    background-color: rgba(0, 141, 228, 1);
+}
+.div-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 464px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.div-3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 464px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-color: rgba(0, 0, 0, 1);
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 1);
+}
+.columns {
+    display: flex;
+}
+@media (max-width: 999px) {
+    .columns {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: calc(98.8% - 0px);
+    margin-left: 0px;
+}
+@media (max-width: 999px) {
+    .column {
+        width: 100%;
+    }
+}
+.drag-drop-file-to-upload-or {
+    max-width: 410px;
+    color: rgba(148, 148, 148, 1);
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Mplus 1p Bold, sans-serif;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    max-width: 69px;
+    justify-content: center;
+    margin-top: 86px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-color: rgba(0, 0, 0, 1);
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 141, 228, 1);
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Mplus 1p Bold, sans-serif;
+}
+
+</style>
